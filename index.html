@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Mohammad Nasim - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Dr. Mohammad Nasim</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I’m Dr. Mohammad Nasim</h1>
+            <p>Senior Solution Architect | GIS Expert | Machine Learning Faculty</p>
+            <div class="hero-buttons">
+                <a href="assets/resume/resume.pdf" class="btn" download>Download Resume</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="assets/images/profile.jpg" alt="Profile Photo" class="profile-img">
+            <p>I am a passionate and innovative Senior Solution Architect with over 26 years of experience in academia and software development. My expertise spans GIS, AI, ML, IoT, and smart city solutions, delivering impactful projects across full SDLC. Currently, I serve as a Senior Solution Architect for the State of Rhode Island and an Adjunct Faculty at Northwood University.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item"><i class="fas fa-code"></i> Python, TensorFlow, PyTorch</div>
+            <div class="skill-item"><i class="fas fa-map-marked-alt"></i> ArcGIS, QGIS, ESRI JS API</div>
+            <div class="skill-item"><i class="fas fa-database"></i> Oracle Spatial, PostgreSQL</div>
+            <div class="skill-item"><i class="fas fa-brain"></i> Machine Learning, Deep Learning</div>
+            <div class="skill-item"><i class="fas fa-cloud"></i> Azure, Cloud Solutions</div>
+            <div class="skill-item"><i class="fas fa-mobile-alt"></i> Mobile GIS, Android SDK</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/images/project1.jpg" alt="Project 1">
+                <h3>Nextgen-GIS</h3>
+                <p>Lead developer for a GIS solution for Atkins UK, integrating advanced geospatial intelligence.</p>
+                <a href="#" class="project-link">Learn More</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/project2.jpg" alt="Project 2">
+                <h3>Digital Twin 3D Framework</h3>
+                <p>Developed a digital twin system for National Rail UK, enhancing asset management.</p>
+                <a href="#" class="project-link">Learn More</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/project3.jpg" alt="Project 3">
+                <h3>PAW GIS Portal</h3>
+                <p>Revamped the GIS portal for Oman’s Public Authority of Water using ArcGIS JS API.</p>
+                <a href="#" class="project-link">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <h2>Resume</h2>
+        <p>Explore my professional journey and achievements in detail.</p>
+        <a href="assets/resume/resume.pdf" class="btn" download>Download My Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> mnasimsiddiqui@gmail.com</p>
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/drmohammad-nasim-28993040/">LinkedIn</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Dr. Mohammad Nasim. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/drmohammad-nasim-28993040/"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
